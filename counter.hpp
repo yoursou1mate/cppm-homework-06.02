@@ -5,9 +5,24 @@
 //  Created by a1ex on 11/22/23.
 //
 
-#ifndef counter_hpp
-#define counter_hpp
+#pragma once
 
-#include <stdio.h>
-
-#endif /* counter_hpp */
+class Counter
+{
+private:
+    int num;
+        
+public:
+    Counter (int num) {
+        this->num = num;
+    }
+    
+    Counter ()
+    {
+        num = 1;
+    }
+    
+    void counter_plus ();
+    void counter_minus ();
+    int counter_value ();
+};

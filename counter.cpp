@@ -6,3 +6,18 @@
 //
 
 #include "counter.hpp"
+
+void Counter::counter_plus ()
+{
+   this->num++;
+}
+
+void Counter::counter_minus ()
+{
+    this->num--;
+}
+
+int Counter::counter_value ()
+{
+    return num;
+}
