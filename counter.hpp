@@ -13,14 +13,8 @@ private:
     int num;
         
 public:
-    Counter (int num) {
-        this->num = num;
-    }
-    
-    Counter ()
-    {
-        num = 1;
-    }
+    Counter (int num);
+    Counter ();
     
     void counter_plus ();
     void counter_minus ();

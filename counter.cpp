@@ -7,6 +7,16 @@
 
 #include "counter.hpp"
 
+
+Counter::Counter (int num) {
+    this->num = num;
+}
+
+Counter::Counter ()
+{
+    num = 1;
+}
+
 void Counter::counter_plus ()
 {
    this->num++;
